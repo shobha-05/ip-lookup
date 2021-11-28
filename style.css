@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+
+}
+body{
+    background : #3498db;
+    font-family: 'bold Montserrat', sans-serif;
+}
+.main_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction :column;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.ip-display,.location-display,.Geo-location{
+    font-size : calc(2rem + 1vw);
+
+
+}
+.lookup-btn{
+    border : none;
+    background :black;
+    color :#ecf0f1;
+    font-size : 1.5 rem;
+    font-weight: 400;
+    padding: 0.8rem 1.5;
+    border-radius: 15px;
+    cursor: pointer;
+    cursor: opacity 250ms linear ;
+
+
+}
+.lookup-btn:hover {
+    opacity : 0.8;
+}
